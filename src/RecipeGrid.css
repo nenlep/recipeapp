@@ -1,0 +1,39 @@
+.recipeGrid{
+  margin-top: 20px;
+}
+.recipeGrid_title{
+  margin-top: 3px;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 300px;
+}
+.recipeGrid_img{
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 4px;
+  align-items: center;
+}
+@media only screen and (max-width: 480px){
+  /* .recipeGrid{
+    
+  } */
+  .recipeGrid_img{
+    width: 250px;
+    height: 250px;
+    
+  }
+}
+@media only screen and (min-width:481px) and (max-width: 768px){
+  .recipeGrid_img{
+    width: 220px;
+    height: 200px;
+  }
+}
+@media only screen and (width: 1024px){
+  .recipeGrid_img{
+    width: 250px;
+    height: 250px;
+  }
+}
